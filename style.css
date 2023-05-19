@@ -23,6 +23,8 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
+    align-items: center;
 }
 
 .container {
@@ -38,6 +40,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao-2 {
@@ -53,4 +56,37 @@ body {
 .titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.imagem {
+    margin: 1em 0 2em 0;
+}
+
+.caixa {
+    margin: 0 6em;
+}
+
+.imagem_2 {
+    width: 80%;
+}
+
+.dois {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.titulo_2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.texto_2 {
+    color: var(--cinza-secundario);
+}
+
+.botao-3 {
+    display: inline-block;
+    margin-top: 1em;
 }
