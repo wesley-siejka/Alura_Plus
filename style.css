@@ -144,3 +144,9 @@ body {
     font-size: 14px;
     color: var(--cinza-secundario);
 }
+
+.botao:hover {
+    color: var(--cor-de-fundo);
+    background-color: var(--cinza-secundario);
+    transition: 0.8s;
+}
